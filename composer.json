@@ -1,0 +1,24 @@
+{
+    "name": "carlosio/github-post-receive-hook",
+    "type": "library",
+    "description": "A PHP library for creating github web post receive hooks",
+    "keywords": ["github", "post hook"],
+    "homepage": "https://github.com/carlosbuenosvinos/php-github-post-receive-hook",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Buenosvinos",
+            "email": "hi@carlos.io",
+            "homepage": "http://carlosbuenosvinos.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "guzzle/guzzle": "v2.7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "CarlosIO": "src"
+        }
+    }
+}
